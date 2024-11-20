@@ -19,7 +19,7 @@ main{
 }
 .video-controler .controler{
     display: flex;
-    background: #1d1d1def;
+    background: #1b1b1bef;
     position: absolute;
     bottom: 30px;
     width: 90%;
@@ -49,14 +49,16 @@ main{
     display: flex;
     position: absolute;
     bottom: 90px;
-    width: 90%;
-    border-radius: 10px;
-    flex-wrap: wrap;
-    background: rgba(0, 0, 0, 0.623);
-    height: 10px;
-    border-radius: 20px;
+    width: 80%;
     overflow: hidden;
     transform: translateY(90px);
+    align-items: center;
+    gap: 20px;
+}
+.progres-bar p{
+    color: white;
+    font-weight: 600;
+    
 }
 .progres-bar .bar-juice{
     height: 100%;
@@ -81,7 +83,7 @@ main{
 
 input[type="range"] {
 	font-size: 1.5rem;
-	width: 12.5em;
+	width: 100%;
 }
 
 input[type="range"] {
