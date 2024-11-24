@@ -55,3 +55,8 @@ function MuteYN() {
         video.muted = true;
     }
 }
+function changequality(url){
+    video.pause()
+    video.src=url
+    video.play()
+}

@@ -39,6 +39,9 @@ main{
 .video-controler .buttons{
     display: flex;
     gap: 20px;
+	width: 1000%;
+	justify-content: space-between;
+
     padding: 10px;
 }
 .video-controler .buttons .play-pause:before{
@@ -76,11 +79,39 @@ main{
 }
 .sound-controlle {
     display: flex;
-    width: 200px;
+    width: 25%;
+    gap: 10px;
+    align-items: center;
+	justify-content: space-between;
+}
+.righte{
+    display: flex;
     gap: 10px;
     align-items: center;
 }
+.quality button:hover ,.quality button.active{
+	
+	background: #dbb303;
+	color: #000000;
 
+}
+.quality button{
+	transition: .5s;
+	font-weight: 500;
+	padding: 5px;
+	border: none;
+	color: #dbb303;
+	background: #7a03db00;
+	border: 3px solid #dbb303;
+	cursor: pointer;
+}
+.quality{
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	gap: 20px;
+	align-items: center;
+}
 input[type="range"] {
 	font-size: 1.5rem;
 	width: 100%;
